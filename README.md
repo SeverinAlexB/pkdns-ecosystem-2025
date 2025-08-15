@@ -47,3 +47,5 @@ Think of it like a TOR onion address but on full internet speed.
 Pointing your domain to an other domain with a CNAME or SVCB record unlocks key delegation.
 
 **Pubky Browser** A browser that works with Public Key Domains and Public Key TLS out of the box.
+
+**Docs and Reliability Improvements**
