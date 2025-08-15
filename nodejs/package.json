@@ -1,0 +1,15 @@
+{
+    "name": "pkarr-nodejs-test",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run build && node dist/$npm_config_file.js",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@synonymdev/pkarr": "^0.1.4-rc.2"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.15",
+        "typescript": "^5.8.3"
+    }
+}
