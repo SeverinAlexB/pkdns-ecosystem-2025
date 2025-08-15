@@ -27,18 +27,19 @@ Think of it like a TOR onion address but on full internet speed.
     - [1_publish_dns_zone](./nodejs/1_publish_dns_zone.ts) Simple publish and resolve.
     - [2_save_and_load_key](./nodejs/2_save_and_load_key.ts) Save the key and load it again.
 
-
 [pkdns](https://github.com/pubky/pkdns/) is a DNS server that supports Public Key Domains. Add it to your browser (DNS-over-HTTPS) or run it locally. 
 - Use pkdns as your DNS server to resolve queries. Example: `nslookup 7fmjpcuuzf54hw18bsgi3zihzyh4awseeuq5tmojefaezjbd64cy 34.65.109.99`
 - Resolve PKD queries in your browser with DNS-Over-HTTPS. Example: `https://pkdns.pubky.org/dns-query`
 - Publish your own domains with `pkdns-cli`. See this [Medium post](https://medium.com/pubky/how-to-host-a-public-key-domain-website-v0-6-0-ubuntu-24-04-57e6f2cb6f77).
 - [DynDNS Support](https://github.com/pubky/pkdns/blob/master/docs/dyn-dns.md)
 
-
 [pkdns.net](https://pkdns.net) provides a convenient DNS zone viewer to verify what you published.
 - [Demo Site](https://pkdns.net/?id=7fmjpcuuzf54hw18bsgi3zihzyh4awseeuq5tmojefaezjbd64cy) 7fmjpcuuzf54hw18bsgi3zihzyh4awseeuq5tmojefaezjbd64cy
 - [Pubky Homeserver](https://pkdns.net/?id=8um71us3fyw6h8wbcxb5ar3rwusy1a6u49956ikzojg3gcwd1dty) 8um71us3fyw6h8wbcxb5ar3rwusy1a6u49956ikzojg3gcwd1dty
 - [Severin's Pubky Account](https://pkdns.net/?id=ihgjy51fdnaingcp8rum1omfzd6p8bhm7usune41grd97dho5cwy) ihgjy51fdnaingcp8rum1omfzd6p8bhm7usune41grd97dho5cwy
+
+
+[pubky-tls-proxy](https://github.com/pubky/pubky-tls-proxy) A proxy terminating raw public key TLS RFC 7250.
 
 ## Future Plans / Ideas
 
